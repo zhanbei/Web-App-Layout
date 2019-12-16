@@ -31,6 +31,11 @@ The collection of several responsive layouts for common modern web applications.
 - API Document Sites `Responsive(more-Desktop)-Layout`
 	- *Looks like the classic desktop layout.*
 
+## Complex Layouts with Complex Structures
+
+The web applications can be complex,
+when it comes to multiple *APP Bars*, multiple *Navigators* or *Menus*, and multiple bottom sections,
+not mentioning to extra various accessories.
 
 ## References
 
