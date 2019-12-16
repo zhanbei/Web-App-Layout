@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>(Fixed )App Bar + (Scrollable )Sidebar Navigator + (Scrollable )Real Content = Classic Desktop Layout</title>
+	<style>
+		/* For demonstration. */
+		h1 {margin: 18px}
+		p {margin: 50px; font-size: large;}
+
+		/* Reset the container. */
+		html, body, #id-react-root-container {margin: 0; height: 100%; background: #999; overflow: hidden;}
+
+		#id-react-root-container {background: #eee; display: flex; flex-flow: column;}
+
+		#id-header {background: #099; color: white;}
+		#id-body {flex: 1; display: flex;}
+
+		#id-nav {background: #ddd; width: 240px; overflow-y: auto;}
+		#id-main {flex: 1; overflow: auto;}
+
+		#id-content-wrapper {height: 100%; max-width: 960px; margin: 0 auto;}
+		#id-real-content {background: white; margin: 16px; padding: 16px; border-radius: 6px;}
+	</style>
+</head>
+<body>
+
+<div id="id-react-root-container">
+
+	<div id="id-header">
+		<h1>Classic Desktop Layout with Fixed Header</h1>
+	</div>
+
+	<div id="id-body">
+		<div id="id-nav">
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+			<p>Menu Item</p>
+		</div>
+		<div id="id-main">
+			<div id="id-content-wrapper">
+				<div id="id-real-content">
+					<h2>(Fixed )App Bar + (Scrollable )Sidebar Navigator + (Scrollable )Real Content = Classic Desktop Layout</h2>
+					<p>This is the real content.</p>
+					<p>The Real Content May be over sized and cause the parent div hence "overflow".</p>
+					<p>Hence to the div of the real content should be inside a scrollable div to make the content available.</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+					<p>Content Item</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>

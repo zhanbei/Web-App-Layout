@@ -13,6 +13,13 @@ titles:
 
 The several responsive layouts for common web applications.
 
+## Kinds of Layouts
+
+- Classic Desktop Layout with Fixed Header
+<sup>[Code](./desktop-layout-with-fixed-header.html)</sup>
+
+
 ## References
 
 - [Web application - Wikipedia](https://en.wikipedia.org/wiki/Web_application)
+- [App Bar React component - Material-UI](https://material-ui.com/components/app-bar/)
