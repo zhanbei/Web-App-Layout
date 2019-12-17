@@ -22,6 +22,13 @@ The collection of several responsive layouts for common modern web applications.
 	- *Scrollable* Sidebar Navigator
 	- *Scrollable* Real Content
 	- *Scrollable* Sidebar Anchors Indicator `Optional`
+- Fixed Secondary APP Bar `Desktop-Layout`
+<sup>[Code](./fixed-secondary-header.html)</sup>
+	- *Fixed* APP Bar
+	- *Scrollable* Sidebar Navigator
+	- *Fixed* **Secondary APP Bar**
+	- *Scrollable* Real Content
+	- *Scrollable* Sidebar Anchors Indicator `Optional`
 - Desktop Layout with Static Header
 	- *Static* APP Bar
 	- *Scrollable* Sidebar Navigator

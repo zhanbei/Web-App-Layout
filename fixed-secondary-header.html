@@ -7,6 +7,7 @@
 	<style>
 		/* For demonstration. */
 		h1 {margin: 18px}
+		h2 {margin: 18px; font-weight: normal;}
 		p {margin: 50px; font-size: large;}
 
 		/* Reset the container. */
@@ -15,13 +16,19 @@
 		#id-react-root-container {background: #eee; display: flex; flex-flow: column;}
 
 		#id-header {background: #099; color: white;}
-		#id-body {flex: 1; display: flex;}
+		/* Use a "overflow: auto" to keep the height flexible as the "flex: 1" expected. */
+		#id-body {flex: 1; display: flex; overflow: auto;}
 
+		/* Make the navigator scrollable. */
 		#id-nav {background: #ddd; width: 240px; overflow-y: auto;}
-		#id-main {flex: 1; overflow: auto;}
+		#id-main {flex: 1; display: flex; flex-flow: column;}
 
-		#id-content-wrapper {height: 100%; max-width: 960px; margin: 0 auto;}
-		#id-real-content {background: white; margin: 16px; padding: 16px; border-radius: 6px;}
+		#id-secondary-header {background: #090; color: white;}
+		/* Take over all of the remaining space of a flex container. */
+		/* Hence add a overflow to make the target real content scrollable. */
+		#id-content-wrapper {flex: 1; overflow: auto;}
+		/* Add a overflow to disable the margin collapse. */
+		#id-real-content {max-width: 960px; margin: 32px auto; background: white; border-radius: 6px; overflow: auto;}
 	</style>
 </head>
 <body>
@@ -57,10 +64,12 @@
 			<p>Menu Item</p>
 		</div>
 		<div id="id-main">
+			<div id="id-secondary-header">
+				<h2>Desktop Layout of (Fixed )Primary APP Bar + (Scrollable )Sidebar Navigator + (Fixed ) Secondary APP Bar + (Scrollable )Real Content</h2>
+			</div>
 			<div id="id-content-wrapper">
 				<div id="id-real-content">
-					<h2>Desktop Layout of (Fixed )Primary APP Bar + (Scrollable )Sidebar Navigator + (Fixed ) Secondary APP Bar + (Scrollable )Real Content</h2>
-					<p>This is the real content.</p>
+					<p>This is the real content, which is expected to be scrollable.</p>
 					<p>The Real Content May be over sized and cause the parent div hence "overflow".</p>
 					<p>Hence to the div of the real content should be inside a scrollable div to make the content available.</p>
 					<p>Content Item</p>
