@@ -4,20 +4,26 @@
 ```yaml
 date: 2019-12-16T14:29:34+0800
 titles:
-    - Web APP Layout
-    - Web APP Layouts
-    - Web APP Responsive Layout
-    - Responsive Layout
-    - HTML CSS Layout
+  - Web APP Layout
+  - Web APP Layouts
+  - Web APP Responsive Layout
+  - Responsive Layout
+  - HTML CSS Layout
 ```
 -->
 
 The collection of several responsive layouts for common modern web applications.
 
 
+## O. Tasks
+
+- [ ] Add a logo to the current demo pages.
+- [ ] Optimize the scrollbar of the current demo pages.
+
+
 ## I. Kinds of Layouts
 
-- Classic Desktop Layout with Fixed Header
+- Classic Layout with Fixed Header
 <sup>[Preview](https://webapps.netoll.com/layouts/desktop-layout-with-fixed-header) |</sup>
 <sup>[Code](./desktop-layout-with-fixed-header.html)</sup>
 	- *Fixed* APP Bar
@@ -33,6 +39,12 @@ The collection of several responsive layouts for common modern web applications.
 	- *Fixed* **Secondary APP Bar**
 	- *Scrollable* Real Content
 	- *Scrollable* Sidebar Anchors Indicator `Optional`
+- Modern Layout with Fixed Header
+<sup>[Preview](https://webapps.netoll.com/layouts/modern-layout-with-fixed-header) |</sup>
+<sup>[Code](./modern-layout-with-fixed-header.html)</sup>
+	- The app header and app menu are centered,
+	 with auto margin in left and right sides,
+	 comparing to #Classic-Layout-with-Fixed-Header.
 - Desktop Layout with Static Header
 	- *Static* APP Bar
 	- *Scrollable* Sidebar Navigator
