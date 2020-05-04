@@ -5,6 +5,7 @@
 date: 2019-12-16T14:29:34+0800
 titles:
     - Web APP Layout
+    - Web APP Layouts
     - Web APP Responsive Layout
     - Responsive Layout
     - HTML CSS Layout
@@ -14,16 +15,19 @@ titles:
 The collection of several responsive layouts for common modern web applications.
 
 
-## Kinds of Layouts
+## I. Kinds of Layouts
 
 - Classic Desktop Layout with Fixed Header
+<sup>[Preview](https://webapps.netoll.com/layouts/desktop-layout-with-fixed-header) |</sup>
 <sup>[Code](./desktop-layout-with-fixed-header.html)</sup>
 	- *Fixed* APP Bar
 	- *Scrollable* Sidebar Navigator
 	- *Scrollable* Real Content
 	- *Scrollable* Sidebar Anchors Indicator `Optional`
-- Fixed Secondary APP Bar `Desktop-Layout`
+- Fixed Secondary Header
+<sup>[Preview](https://webapps.netoll.com/layouts/fixed-secondary-header) |</sup>
 <sup>[Code](./fixed-secondary-header.html)</sup>
+`Desktop-Layout`
 	- *Fixed* APP Bar
 	- *Scrollable* Sidebar Navigator
 	- *Fixed* **Secondary APP Bar**
@@ -40,20 +44,20 @@ The collection of several responsive layouts for common modern web applications.
 	- *Looks like the classic desktop layout.*
 
 
-## Complex Layouts with Complex Structures
+## II. Complex Layouts with Complex Structures
 
 The web applications can be complex,
 when it comes to multiple *APP Bars*, multiple *Navigators* or *Menus*, and multiple *Bottom Bars*,
 not mentioning to extra various accessories.
 
-### APP Bars
+### 1. APP Bars
 
 - Navigator
 - Menus
 - Search Bar
 - Account
 
-### Side Bars
+### 2. Side Bars
 
 - Sidebar Navigator `Scrollable`
 	- For totally different sections of contents.
@@ -61,7 +65,7 @@ not mentioning to extra various accessories.
 	- The chained content as a section.
 - Sidebar Anchors Indicator `Scrollable`
 
-### Page Header
+### 3. Page Header
 
 - Page Title
 - Breadcrumbs
@@ -70,17 +74,17 @@ not mentioning to extra various accessories.
 - Filters
 - Sorting
 
-### Page Tails
+### 4. Page Tails
 
 - Related Contents/Articles
 
-## Accessories
+## III. Accessories
 
 The accessories may be placed inside any other sections in various formats.
 
 - Language Switcher
 
-### Bottom Bars
+### 1. Bottom Bars
 
 There are often several globally-shared bottom sections on nearly every pages.
 
@@ -100,7 +104,7 @@ There are often several globally-shared bottom sections on nearly every pages.
 	- Terms & Privacy
 
 
-## References
+## IV. References
 
 - [Web application - Wikipedia](https://en.wikipedia.org/wiki/Web_application)
 - [App Bar React component - Material-UI](https://material-ui.com/components/app-bar/)
